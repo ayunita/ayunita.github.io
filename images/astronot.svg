@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg-canvas" height="800px" width="800px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g id="astronot" transform="translate(0 -62.362)">
+  <!-- <rect id="tank" stroke-linejoin="bevel" ry="8.7312" height="369.39" width="101.39" stroke="#4cd7bf" stroke-linecap="square" y="329.67" x="547.31" stroke-width="7.9835" fill="#2ca089"/> -->
+  <path stroke-linejoin="round" d="m584.39 406.55c-357.59 451.87-178.8 225.94 0 0z" fill-rule="evenodd" stroke="#4cd7bf" stroke-linecap="round" stroke-width="10" fill="#f2f2f2"/>
+  <g id="rhand" transform="translate(48,32)" stroke-linecap="round">
+   <path stroke-linejoin="round" d="m339.64 484.17-212.25-87.69s-28.735-6.7717-27.564-18.195c2.6189-25.537 30.225-19.44 30.225-19.44 85.198 2.2703-9.8372-142.86 57.936-154.78 14.843-2.6086 21.958 102.34 21.958 102.34l-7.3697 24.344 8.0137-22.179 201.96 157.67z" fill-rule="evenodd" stroke="#4cd7bf" stroke-width="10" fill="#f9f9f9"/>
+   <path stroke-linejoin="bevel" d="m260.85 353.35c8.6917 39.733-7.9823 66.596-32.778 83.646" stroke="#ccc" stroke-width="9.371" fill="none"/>
+   <path d="m320.61 399.14c12.742 27.142 2.8566 52.343-22.274 68.343" stroke="#ccc" stroke-width="9.1387" fill="none"/>
+  </g>
+  <g id="body">
+   <g stroke="#4cd7bf">
+    <path stroke-linejoin="round" d="m320.4 568.1s-24.38-56.484-65.315-53.464c-40.935 3.0198-116.17 128.29-116.17 128.29l92.934 49.497z" fill-rule="evenodd" stroke-linecap="round" stroke-width="10" fill="#f2f2f2"/>
+    <path stroke-linejoin="round" d="m398.64 446.14-44.92 121.14c18.488 10.908 32.932 24.369 36.719 44.562 0 0-15.147-51.261-60.215-47.141-45.068 4.1203-78.176 95.398-78.176 95.398l74.751 91.924 57.579-59.599-21.213-24.244c43.508 52.908 72.288 79.374 159.6 47.477l60.609-33.335c7.8388-34.329 9.7862-166.55-23.234-246.48-54.724 15.463-161.51 10.299-161.51 10.299z" fill-rule="evenodd" stroke-linecap="round" stroke-width="10" fill="#f9f9f9"/>
+    <ellipse stroke-linejoin="bevel" rx="29.688" ry="17.318" cy="531.87" cx="259.93" stroke-width="8.3479" fill="#fc0"/>
+    <ellipse stroke-linejoin="bevel" rx="29.688" ry="17.318" cy="584.65" cx="336.62" stroke-width="8.3479" fill="#fc0"/>
+   </g>
+   <g id="g4942" transform="translate(48,32)">
+    <g stroke-width="10">
+     <path d="m336.44 455.34 97.304 13.194-29.686 97.304-92.357-49.477z" stroke-opacity=".92941" fill-rule="evenodd" stroke="#4cd7bf" fill="#f2f2f2"/>
+     <ellipse stroke-linejoin="bevel" stroke-opacity=".92941" rx="15.668" ry="16.492" stroke="#4cd7bf" cy="496.57" cx="393.34" fill="#fc0"/>
+     <path d="m328.8 474.66 36.77 9.8995" stroke="#4cd7bf" fill="none"/>
+    </g>
+    <path d="m318.1 500.36 47.573 17.879" stroke="#4cd7bf" stroke-width="11.484" fill="none"/>
+   </g>
+  </g>
+  <g id="rboots" fill-rule="evenodd" transform="translate(-38.092 -41.69)" stroke="#4cd7bf" stroke-width="10">
+   <path d="m232.43 598.27 87.793 114.68-92.934 75.761-45.074-47.381-18.21-19.142s-103.52-103.8-79.148-133.49c37.683-45.898 109.1 46.467 109.1 46.467l34.345 17.173-33.335-18.183z" fill="#f2f2f2"/>
+   <path d="m79.546 588.83 167.01 184.81-25.56 19.79-164.1-178.11z" fill="#ccc"/>
+  </g>
+  <g id="head">
+   <circle stroke-linejoin="bevel" stroke-width="11.906" stroke="#4cd7bf" cy="309.62" cx="477.55" r="144.05" fill="#f9f9f9"/>
+   <ellipse stroke-linejoin="bevel" rx="114.49" ry="106.91" stroke="#4cd7bf" cy="307.1" cx="448" stroke-width="9.5833" fill="#4d4d4d"/>
+   <text id="smile" style="word-spacing:0px;letter-spacing:0px" transform="matrix(0 1.1626 -.86017 0 0 0)" line-height="125%" xml:space="preserve" font-size="77.6px" y="-457.78055" x="229.52333" font-family="sans-serif" fill="#F4F4F4"><tspan id="tspan4278" y="-457.78055" x="229.52333">:)</tspan></text>
+   <ellipse stroke-linejoin="bevel" stroke-opacity=".92941" rx="14.75" ry="40.313" stroke="#4cd7bf" cy="317.47" cx="589.77" stroke-width="8.5365" fill="#fc0"/>
+  </g>
+  <path id="neck" stroke-linejoin="bevel" d="m369.19 408.81 20.597 47.509c31.409 16.317 136.69 19.567 180.13 1.3402 0 0 13.924-52.854 14.822-49.452 10.038 38.041-227.71 32.002-215.55 0.60273z" fill-rule="evenodd" stroke="#4cd7bf" stroke-width="9.3069" fill="#999"/>
+  <g id="lboots" fill-rule="evenodd" transform="matrix(.98481 -.17365 .17365 .98481 -70.338 91.503)" stroke="#4cd7bf" stroke-width="10">
+   <path d="m236.19 573.73 89.565 121.25-98.471 93.732-45.074-47.381-18.21-19.142s-103.52-103.8-79.148-133.49c37.683-45.898 109.1 46.467 109.1 46.467l-17.272-19.165z" fill="#f2f2f2"/>
+   <path d="m79.546 588.83 168.97 180.42-26.58 25.53-165.04-179.46z" fill="#ccc"/>
+  </g>
+  <path d="m366.2 663.63c24.619 28.324 48.275 57.592 170.41-4.2426l8.4853 41.012s-57.268 31.444-104.44 22.399c-47.175-9.0454-74.454-59.169-74.454-59.169z" fill-rule="evenodd" fill="#f2f2f2"/>
+  <g id="lhand" transform="translate(48.195 13.939)" stroke-linecap="round">
+   <path stroke-linejoin="round" d="m453.56 479.61 49.497 224.25s-10.318 23.529-1.868 31.305c19.975 18.379 45.305-20.193 45.305-20.193s158.27-1.3099 156.57-37.376c-1.6989-36.066-96.975-39.396-96.975-39.396l-25.254 3.0304 23.234-4.0406c-66.036-69.646-83.849-308.69-150.51-157.58z" fill-rule="evenodd" stroke="#4cd7bf" stroke-width="10" fill="#f9f9f9"/>
+   <path d="m488.35 603.09c31.563-24.954 61.422-25.576 82.454-8.6637" stroke="#ccc" stroke-width="9.0566" fill="none"/>
+   <path d="m470.77 523.22c21.909-24.093 48.025-25.819 69.62-8.9902" stroke="#ccc" stroke-width="9.1541" fill="none"/>
+  </g>
+ </g>
+</svg>

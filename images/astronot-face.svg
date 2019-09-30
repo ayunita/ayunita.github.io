@@ -1,0 +1,10 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 2000 2000">
+ <g transform="translate(0 947.64)">
+  <path d="m11.881 1089c34.673-493.03 1924.3-440.42 1980.4-4z" fill-rule="evenodd" stroke="#4cd7bf" stroke-width="49.55" fill="#f2f2f2"/>
+  <ellipse stroke-linejoin="bevel" stroke-linecap="square" rx="816.2" ry="800.04" stroke="#4cd7bf" cy="1.8035" cx="1010.2" stroke-width="50" fill="#f2f2f2"/>
+  <ellipse stroke-linejoin="bevel" stroke-linecap="square" rx="716.29" ry="574.87" stroke="#4cd7bf" cy="17.966" cx="1014.2" stroke-width="39.705" fill="#4d4d4d"/>
+  <ellipse rx="16.283" ry="134.78" cy="3.8238" cx="1788" fill="#fc0"/>
+  <ellipse rx="16.283" ry="134.78" cy="3.8242" cx="234.36" fill="#fc0"/>
+  <path stroke-linejoin="bevel" d="m412.74 558.3 113.45 199.33c173 68.461 752.87 82.097 992.13 5.623 0 0 76.691-221.76 81.638-207.48 55.288 159.61-1254.2 134.27-1187.2 2.5289z" fill-rule="evenodd" stroke="#4cd7bf" stroke-width="44.74" fill="#999"/>
+ </g>
+</svg>

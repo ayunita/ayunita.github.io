@@ -50,7 +50,6 @@ p {
 }
 
 .page {
-    /*display: none;*/
     float: left;
     width: 100%;
 }
@@ -196,6 +195,11 @@ p {
         font-size: 1em;
     }
 }
+
+.hidden {
+    display: none;
+}
+
 
 @media (max-width:480px) {
     h1 {
