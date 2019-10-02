@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <title>Andriani Yunita's Portfolio</title>
@@ -50,15 +50,30 @@
             }
 
         .column-3 {
-            display: inline-block;
+            display: table-cell;
             float: left;
             width: 30%;
+            height: 100%;
         }
 
         .column-2 {
-            display: inline-block;
+            display: table-cell;
             float: left;
             width: 20%;
+        }
+
+        .card {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        .card-flip {
+            margin: 5%;
+            height: 40%;
+            width: 40%;
+            float: left;
+            position: relative;
         }
 
         h1 {
@@ -174,12 +189,12 @@
 <body>
     <section class="panel blue">
         <div id="home-bg" class="wrapper">
-                <div class="typewriter">
-                    <h1 class="typewriter-text">&lt;Hello world /&gt;</h1>
-                </div>
-                <div class="fadein">
-                    <h2>I'm Yunita, a software developer :)</h2>
-                </div>
+            <div class="typewriter">
+                <h1 class="typewriter-text">&lt;Hello world /&gt;</h1>
+            </div>
+            <div class="fadein">
+                <h2>I'm Yunita, a software developer :)</h2>
+            </div>
         </div>
     </section>
     <section class="panel turqoise">
@@ -189,11 +204,19 @@
                     <img src="images/astronot-rhand.svg" style="width: 50%; height: 50%;" />
                 </div>
                 <div class="column-3 text">
+                    <h3>&lt;Profile /&gt;</h3>
+                    <br />
                     <p>I learn, code, and have fun! I am an Indonesian who is currently residing in Edmonton, Canada. I did my diploma in Computer Programming from Humber College in 2013 and my undergraduate degree in Computing Science from University of Alberta in 2018. I worked as a programmer for 2 years during my university life and as a software developer for 1 year after graduating in a research centre at the University of Alberta.</p>
                     <br /><p>It's been an amazing experience to learn the opportunity to utilize technology in managing patient care in Alberta. Now, it's time for me to take my curiosity to a new journey and a new destination! </p>
                 </div>
                 <div class="column-3">
-                    <img src="images/astronot.svg" style="width:80%" />
+                    <br />
+                    <div class="card">
+                        <div class="card-flip blue">EPI·R<sub>x</sub>ISK™</div>
+                        <div class="card-flip turqoise">Homunculus DAS Calculator</div>
+                        <div class="card-flip green">R<sub>x</sub>OUTMAP Tool</div>
+                        <div class="card-flip bordeaux">XXX</div>
+                    </div>
                 </div>
                 <div class="column-2">
                     <img src="images/astronot-rhand.svg" style="width: 50%; height: 50%; -webkit-transform: scaleX(-1); transform: scaleX(-1); float: right;" />
@@ -219,9 +242,7 @@
             var controller = new ScrollMagic.Controller({
                 globalSceneOptions: {
                     triggerHook: 'onLeave',
-                    duration: "100%" // this works just fine with duration 0 as well
-                    // However with large numbers (>20) of pinned sections display errors can occur so every section should be unpinned once it's covered by the next section.
-                    // Normally 100% would work for this, but here 200% is used, as Panel 3 is shown for more than 100% of scrollheight due to the pause.
+                    duration: "100%"
                 }
             });
 
@@ -237,6 +258,7 @@
                     .addIndicators() // add indicators (requires plugin)
                     .addTo(controller);
             }
+
         });
     </script>
 </body>
