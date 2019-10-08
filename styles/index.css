@@ -159,9 +159,13 @@ h3 {
     background-image: url("../images/astronot-face.svg");
 }
 
-#project1 {
-    background-image: url("../images/project1.png");
-}
+    #home-bg .fadein {
+        text-align: center;
+    }
+
+    #project1 {
+        background-image: url("../images/project1.png");
+    }
 
 #project2 {
     background-image: url("../images/project2.png");
@@ -223,6 +227,36 @@ h3 {
 
     100% {
         font-size: 1em;
+    }
+}
+
+.scroll-down {
+    padding: 5%;
+    color: #4cd7bf;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.bounce {
+    animation-name: bounce;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-15px);
+    }
+
+    60% {
+        transform: translateY(-8px);
     }
 }
 
@@ -294,8 +328,5 @@ h3 {
         width: 100%;
         display: block;
     }
-
-
-
-
+         
 }
